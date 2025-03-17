@@ -22,7 +22,7 @@ public class HashMapPokemon extends MapPokemon {
         if(colection.containsKey(llave)) {
             mensaje = colection.get(llave).getInformation();
         }else{
-            mensaje = "El pokemon no está en la coleccion";
+            mensaje = "El pokemon no está en la colección";
         }
         return mensaje;
     }
